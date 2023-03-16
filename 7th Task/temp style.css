@@ -1,0 +1,138 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 100%;
+	background-color: #706f72;
+	height:auto;
+	margin:5px auto;
+	padding:5px;
+}
+h1{
+	font-size:30px;
+	margin:0;
+}
+.clear{
+	clear: both;
+}
+header{
+ float:left;
+ width: 100%;
+ background-color:#989bca; 
+ text-align: center;
+ color: white;
+ padding:30px 15px;
+ margin-bottom:20px;
+}
+.section0 .content .left .card{
+	padding:250px 15px;
+	font-size:30px;
+	color:#0f0f0f;
+	text-align: right;
+	background-color: rgb(248, 244, 244);
+}
+
+.section1{
+ float:left;
+ width: 100%;
+ background-color:#dddddd; 
+ text-align: center;
+ padding:50px 10px;
+ margin-bottom:20px;
+}
+
+.section1 .content{
+	float:left;
+	width: 100%;
+	margin-top:60px;
+}
+
+.section1 .content .card{
+width:25%;
+float: left;
+padding:0px 10px;
+}
+
+.section1 .content .card .box{
+	background-color:rgb(245, 235, 235);
+	font-size:10px;
+	color:#726e6e;
+	padding:60px 15px;
+}
+
+.section2{
+ float:left;
+ width: 100%;
+ background-color:#fcf9f9; 
+ text-align: center;
+ padding:50px 10px;
+ margin-bottom:20px;
+}
+
+.section2 .content{
+float: left;
+width: 100%;
+margin-top:60px;
+}
+
+.section2 .content .left{
+	width: 50%;
+	float: left;
+	padding:0px 10px;
+
+}
+.section2 .content .left .card{
+	padding:48px 15px;
+	font-size:15px;
+    text-align: left;
+	color:#0c0b0b;
+	background-color: rgb(214, 208, 208);
+	margin-bottom:20px;
+}
+.section2 .content .right{
+	width: 50%;
+	float: left;
+	padding: 0px 10px;
+}
+.section2 .content .right .card{
+	padding:48px 15px;
+	font-size:15px;
+	color:#0f0e0e;
+	background-color: rgb(214, 208, 208);
+	margin-bottom:20px;
+}
+.section3{
+	float:left;
+	width: 100%;
+	background-color:#fcf0f0; 
+	text-align: center;
+	padding:50px 10px;
+	margin-bottom:20px;
+   }
+   
+  .section3 .grid {
+    display: grid;
+    width: auto;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    align-items: center;
+}
+   
+
+footer{
+ float:left;
+ width: 100%;
+ background-color: #100333; 
+ text-align: center;
+ color: #dddddd;
+ padding:20px 10px;
+ 
+}
+

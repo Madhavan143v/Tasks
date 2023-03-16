@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Template</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .Section1{
+            
+ 
+  
+  align-items: center;
+  
+}
+        
+.grid {
+  display: grid;
+  width: 80%;
+
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+.box{
+            margin-right:6.4%;
+            background-color: silver;
+            padding: 5px;
+            width:473px;
+         }
+.add{
+            margin-left:4%;
+            padding: 15px;
+            background-color: green;
+            height:124px;
+            margin-bottom: 5px;
+            width: 60px;
+         }
+         #num{
+            color: white;
+            font-weight: bold;
+            font-size:25px;
+            padding-left: 10px;
+         }
+    </style>
+</head>
+<body link="#000" alink="#01"><br><br>
+    <h3 align="center">&emsp;&emsp;&emsp;&emsp;
+        <a href="#">Home</a>&emsp;&emsp;&emsp;
+        <a href="#">About us</a>&emsp;&emsp;&emsp;
+        <a href="#">Products</a>&emsp;&emsp;&emsp;
+        <a href="#">Services</a>&emsp;&emsp;&emsp;
+        <a href="#">Contact</a>&emsp;&emsp;&emsp;
+
+    </h3><br> <br><br>
+    <h1 ><center>Space</center></h1>
+    <br><br>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="rr4.webp" width="80%" height="100%"  alt="...">
+          </div>
+          <div class="carousel-item">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="rr2.webp" width="80%" height="100%" alt="...">
+          </div>
+          <div class="carousel-item">
+            &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp; <img src="rr3.webp" width="80%" height="100%" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br>
+       <section class="section1">
+        <div class="grid">
+            <div class="grid-item">
+              <div class="card">
+                <img class="card-img" src="r2.jpg" alt="Rome" />
+                <div class="card-content">
+                  <h1 class="card-header">Rome</h1>
+                  <p class="card-text">
+                    Rome is known for its stunning <strong> architecture</strong>,
+                    with the Colleseum, Pantheon, and Trevi Fountain as the main
+                    attractions.
+                  </p>
+                  <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="card">
+                <img
+                  class="card-img"
+                  src="r3.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content">
+                  <h1 class="card-header">Grand</h1>
+                  <p class="card-text">
+                    Rome is known for its stunning <strong> architecture</strong>,
+                    with the Colleseum, Pantheon, and Trevi Fountain as the main
+                    attractions.
+                  </p>
+                  <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="card">
+                <img class="card-img" src="r4.jpg" alt="Maldives" />
+                <div class="card-content">
+                  <h1 class="card-header">Maldives</h1>
+                  <p class="card-text">
+                    Rome is known for its stunning <strong> architecture</strong>,
+                    with the Colleseum, Pantheon, and Trevi Fountain as the main
+                    attractions.
+                  </p>
+                  <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><br><br><br><br><br><br><br><br><br><br>
+        <div>
+          <div class="add" style="float:left;">
+              <p id="num">&emsp;&emsp;15</p>
+         </div>
+    <div class="box" style="float:left;">
+         <b style="color: green;">Lorem Ipsum Is Simply Text</b>
+         <p>Lorem ipsum dolor amet, consectetur <br>
+           adipisicing elit, sed do eiusmod tempor
+           incididunt labore magna aliqua</p>
+    </div>
+    <div class="add" style="float:left;">
+      <p id="num1" style="text-align: center;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$</b></p>
+ </div>
+    <div class="box" style="float: right;">
+         <b style="color: green;">Lorem Ipsum Is Simply Text</b>
+         <p>Lorem ipsum dolor amet, consectetur <br>
+           adipisicing elit, sed do eiusmod tempor
+           incididunt labore magna aliqua</p>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+  <center><h4>DESIGNED BY</h4></center><br><br><br><br><br><br><br>
+</body>
+</html>

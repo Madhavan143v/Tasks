@@ -1,0 +1,47 @@
+Forms:
+    - How many forms we know?
+        - Login     1
+        - MCQ       2
+        - Search    3
+        - Suggestion 4
+        - Hospital (Admission, Consultation, Discharge)     5
+        - ID Card (School, College, Company)    6
+        - Application   7
+        - Feedback    11
+        - Registration  8
+        - Sign In
+        - Sign Up    9
+        - Admission     10
+        - Declaration   12
+        - Payment       13
+        - Purchase / Order      14
+        - Donation / Charity    15
+        - Reservation Flight / Train / Bus / Cruise / Cabs / Auto / Bike / Hotels / Restaurants 16
+        - Resolution / Support
+        - Audit
+        - Log/Time Sheet
+        - Contact   17
+        - Selection
+        - Medical OP / Test / Bill / Claiming
+        - Insurance Registration / Renewal / Claiming / Dispute / Bond / Cancellation / Reinstating
+        - Invoice
+        - Newsletter Subscription
+        - Attendance
+        - Advertisement
+        - Service Car / Bike / Gadgets / Jet
+        - Guidance
+        - Scheduling
+        - Request
+        - Appointment / Resignation
+        - Compensation / Reimbursement
+        - Leave Application
+        - Employee
+        - Investigator / Suspect / Background / Legal
+        - Bank Opening / Deposit / Withdrawal / Surrender / Update / Closure / Fradualent / Loan / Cheque
+        - Govt License / Passport / Aadhaar / Pan / IT / Voter Id / Ration / Border Pass / Voting / PPF / Retirement / Birth / Death / Marriage / Heir / Adoption / Divorce / Immigrate / Community / Native / Graduate / Visa / Green Card / Millitary
+        - Profile
+        - Dashboard
+        - Rental
+
+        = 100 FORMS
+            Align Associate
